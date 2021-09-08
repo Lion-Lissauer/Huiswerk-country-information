@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="styles.css" type="text/css">
 </head>
 <body>
-
+<h1>Country</h1>
+<div class="sign-up-container">
+    <form action="">
+        <label for="input-country">
+            <input type="search" name="country" id="input-country"/>
+        </label>
+        <div class="search-field"></div>
+        <button id="special-button" type="button">Search</button>
+    </form>
+    <p class="form-warning" id="country-warning"></p>
+</div>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <!--<input id="search" type="text" name="search-field"></input>-->
 </body>
 </html>
